@@ -30,7 +30,6 @@ Devices are described in the devices.dat file by their device ID, a list of supp
 ```
 
 Channels are described by their ID in channels.dat.
-
 ```
 #channelID
 0
@@ -40,8 +39,6 @@ Channels are described by their ID in channels.dat.
 ```
 
 Content entries are described in the content.dat by IDs and their size.
-
-content.dat
 ```
 #contentID contentSize
 0	2
@@ -50,8 +47,6 @@ content.dat
 ```
 
 The intial state of each device at the beginning of a round is defined in state.dat. If a device is in Client mode the deviceID of the corresponding AP has to be provided. If a device is in AP mode the channelID of the operating channel has to be provided.
-
-state.dat
 ```
 #deviceID deviceState channelID/deviceID of AP/dummy (for Idle)
 # 0 = Idle(default), 1 = AP, 2 = Client
@@ -61,7 +56,6 @@ state.dat
 ```
 
 All potential exchanges are described in the utility.dat. Each potential exchange consist of a deviceID of the provider, a deviceID of the consumer, a contentID and an utility value that will be gained if the exchanged is scheduled.
-utility.dat
 ```
 #contentProviderID contentConsumerID contentID utilityValue
 0	1	0	10
@@ -69,7 +63,6 @@ utility.dat
 ```
 
 The link speeds between device for each channel is defined in link_speed.dat A link speed of zero corresponds to no connectivity.
-link_speed.dat
 ```
 #contentProviderID contentConsumerID  channelID linkSpeed(0=no connectivity)
 0	1	0	1
@@ -97,6 +90,7 @@ Niels Karowski (karowski@tkn.tu-berlin.de)
 ## References
 
 [1]	G. P. Release, "http://www.gartner.com/newsroom/id/2905717."
+
 [2]	D. Evans, "The internet of things: How the next evolution of the internet is changing everything," CISCO white paper, vol. 1, pp. 1-11, 2011.
 
 
