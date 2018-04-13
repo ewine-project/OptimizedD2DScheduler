@@ -1,0 +1,4 @@
+#deviceID (list of supported channel IDs) (list of available content IDs) (list of interested content IDs)
+0	0	0	-
+1	0,1	-	0
+2	0,1	-	0

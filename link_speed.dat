@@ -1,0 +1,4 @@
+#contentProviderID contentConsumerID  channelID linkSpeed(0=no connectivity)
+0	1	0	1
+1	2	0	1
+1	2	1	1

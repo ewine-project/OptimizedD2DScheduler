@@ -1,0 +1,5 @@
+#deviceID deviceState channelID/deviceID of AP/dummy (for Idle)
+# 0 = Idle(default), 1 = AP, 2 = Client
+0	0	0
+1	0	0
+2	0	0
